@@ -29,4 +29,22 @@ $(document).ready(function(){
 		}
 	});
 
+	$('.mobile-btn').click(function(){
+		if ( $(this).hasClass('active') ){
+			$(this).removeClass('active');
+			$('.mobile-menu').removeClass('active');
+			$('body').removeClass('active');
+		} else {
+			$(this).addClass('active');
+			$('.mobile-menu').addClass('active');
+			$('body').addClass('active');
+		}
+	});
+
+	$('.close-btn').click(function(){
+		$('.mobile-btn').removeClass('active');
+		$('.mobile-menu').removeClass('active');
+		$('body').removeClass('active');
+	});
+
 });
