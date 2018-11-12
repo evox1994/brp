@@ -1166,6 +1166,7 @@
 		width: 100%;
 		box-sizing: border-box;
 		padding: 0 10px;
+		font-size: 36px;
 	}
 	.b-5-list li {
 		display: block;
