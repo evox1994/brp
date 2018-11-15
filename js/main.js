@@ -51,7 +51,7 @@ $(document).ready(function(){
 		$(this).parents('.drop-triangle').addClass('active');
 		setTimeout(function(){
 			$('.drop-triangle').removeClass('active');
-		},2000);
+		},500);
 	});
 
 });
