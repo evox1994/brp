@@ -47,4 +47,11 @@ $(document).ready(function(){
 		$('body').removeClass('active');
 	});
 
+	$('.drop-close').click(function(){
+		$(this).parents('.drop-triangle').addClass('active');
+		setTimeout(function(){
+			$('.drop-triangle').removeClass('active');
+		},2000);
+	});
+
 });
