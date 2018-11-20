@@ -20,10 +20,4 @@ $(document).ready(function(){
 		]
 	});
 
-	$('.b-7-slide a').click(function(){
-		var src = $(this).attr('href');
-		$('.b-7-image img').attr('src',src);
-		return false;
-	});
-
 });

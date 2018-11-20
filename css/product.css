@@ -43,6 +43,13 @@
 	font-size: 14px;
 	padding-right: 12px;
 	margin-right: 10px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-1 .place span:hover {
+	color: rgb(162, 162, 162);
 }
 .b-1 .place span:last-child {
 	margin-right: auto;
@@ -190,6 +197,7 @@
 	box-sizing: border-box;
 	padding: 200px 10px 180px;
 	background-image: url('../i/p-b-3-img.jpg');
+	background-position: center;
 }
 .b-3 h2 {
 	display: block;
@@ -401,6 +409,13 @@
 	box-sizing: border-box;
 	background-size: cover;
 	padding: 20px 10px 20px 255px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-4-dop:hover {
+	box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,0.1), 0 0.75em 3em 0 rgba(0,0,0,0.05);
 }
 .b-4-dop-name {
 	text-align: left;
@@ -637,6 +652,13 @@
 	position: relative;
 	margin: 0 10px 30px;
 	text-align: center;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-6-slider li:hover {
+	box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,0.1), 0 0.75em 3em 0 rgba(0,0,0,0.05);
 }
 .b-6-slider li.new::before {
 	content: 'Модельный ряд 2019';
@@ -771,7 +793,15 @@
 		padding: 0;
 	}
 	.b-4-info-icon {
-		margin: 0 10px 30px;
+		display: block;
+		max-width: 100%;
+		margin: 0 auto 30px;
+	}
+	.b-4-info .right-part {
+		text-align: center;
+	}
+	.b-4-btn {
+		margin: 0 auto;
 	}
 	.b-5-img {
 		display: block;
@@ -783,5 +813,9 @@
 		padding: 0 10px;
 		margin: 0 auto;
 		width: 100%;
+		text-align: center;
+	}
+	.b-5 h2 {
+		text-align: center;
 	}
 }

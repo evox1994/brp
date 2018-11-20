@@ -14,4 +14,19 @@ $(document).ready(function(){
 		}
 	});
 
+	$('.subfilter-item.drop').click(function(){
+		if ( $(this).hasClass('active') ){
+			$('.subfilter-item.drop').removeClass('active');
+		} else {
+			$('.subfilter-item.drop').removeClass('active');
+			$(this).addClass('active');
+		}
+	});
+
+	$('body').on('click',function(e){
+		if ( !$(e.target).parents('.subfilter-item.drop').length ){
+			$('.subfilter-item.drop').removeClass('active');
+		}
+	});
+
 });

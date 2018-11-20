@@ -373,6 +373,33 @@
 	width: calc(50% - 4px);
 	padding-right: 15px;
 }
+.b-4-list .li-image a {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+.b-4-list .li-image a::before {
+	content: '';
+	position: absolute;
+	display: block;
+	opacity: 0.2;
+	background-color: #362f32;
+	top: 0;
+	left: -40%;
+	width: 0;
+	height: 100%;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-ms-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
+	-webkit-transform: skew(-20deg,0);
+	-moz-transform: skew(-20deg,0);
+	-ms-transform: skew(-20deg,0);
+	transform: skew(-20deg,0);
+}
+.b-4-list .li-image a:hover:before {
+	width: 180%;
+}
 .b-4-list .li-image img {
 	display: block;
 	margin: 0 auto;
@@ -400,6 +427,16 @@
 	font-family: 'PfDinTextCondPro-Bold';
 	margin-bottom: 20px;
 	text-transform: uppercase;
+}
+.b-4-list .li-title a {
+	color: #ffffff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-4-list .li-title a:hover {
+	color: rgb(228, 177, 2);
 }
 .b-4-list p {
 	display: block;
@@ -472,6 +509,33 @@
 .b-5-list .li-image {
 	margin-bottom: 40px;
 }
+.b-5-list .li-image a {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+.b-5-list .li-image a::before {
+	content: '';
+	position: absolute;
+	display: block;
+	opacity: 0.2;
+	background-color: #362f32;
+	top: 0;
+	left: -40%;
+	width: 0;
+	height: 100%;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-ms-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
+	-webkit-transform: skew(-20deg,0);
+	-moz-transform: skew(-20deg,0);
+	-ms-transform: skew(-20deg,0);
+	transform: skew(-20deg,0);
+}
+.b-5-list .li-image a:hover:before {
+	width: 180%;
+}
 .b-5-list .li-image img {
 	display: block;
 	max-width: 100%;
@@ -490,6 +554,16 @@
 	line-height: 1;
 	font-size: 24px;
 	margin-bottom: 20px;
+}
+.b-5-list .li-title a {
+	color: #ffffff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-5-list .li-title a:hover {
+	color: rgb(228, 177, 2);
 }
 .b-5-list p {
 	display: block;
@@ -906,7 +980,7 @@
 .b-10 input:focus::-moz-placeholder          {color:transparent;}
 .b-10 input:focus:-moz-placeholder           {color:transparent;}
 .b-10 input:focus:-ms-input-placeholder      {color:transparent;}
-.b-10 input:focus {
+.b-10 input:focus, .b-10 input:hover {
 	border-color: #000000;
 }
 .b-10-btn {

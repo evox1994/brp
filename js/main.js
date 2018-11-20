@@ -54,4 +54,6 @@ $(document).ready(function(){
 		},500);
 	});
 
+	$('.fancybox').fancybox();
+
 });

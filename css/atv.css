@@ -44,6 +44,13 @@
 	font-size: 14px;
 	padding-right: 12px;
 	margin-right: 10px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-1 .place span:hover {
+	color: rgb(162, 162, 162);
 }
 .b-1 .place span:last-child {
 	margin-right: auto;
@@ -107,6 +114,13 @@
 .filter li a {
 	font-size: 24px;
 	color: #404040;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.filter li a:hover {
+	color: #ffc525;
 }
 .filter li.active a {
 	font-family: 'PfDinTextCondPro-Medium';
@@ -169,7 +183,7 @@
 	padding-right: 20px;
 }
 .subfilter-item.drop:hover {
-	cursor: default;
+	cursor: pointer;
 }
 .subfilter-item.drop::before {
 	content: '';
@@ -187,7 +201,7 @@
 	-ms-transition: all 0.3s;
 	transition: all 0.3s;
 }
-.subfilter-item.drop:hover:before {
+.subfilter-item.drop.active::before {
 	-webkit-transform: rotate(180deg);
 	-moz-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
@@ -216,7 +230,7 @@
 	transform: translateX(0);
 	right: 0;
 }
-.subfilter-item.drop:hover .drop-wrap {
+.subfilter-item.drop.active .drop-wrap {
 	display: block;
 }
 .subfilter-item.drop .drop-wrap a {
@@ -233,7 +247,7 @@
 .subfilter-item.drop .drop-wrap a:last-child {
 	margin-bottom: 0;
 }
-.subfilter-item.drop:hover .drop-wrap a::before {
+.subfilter-item.drop .drop-wrap a::before {
 	content: '';
 	display: block;
 	width: 15px;
@@ -325,6 +339,13 @@
 	position: relative;
 	margin: 0 10px 30px;
 	text-align: center;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-2-list li:hover {
+	box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,0.1), 0 0.75em 3em 0 rgba(0,0,0,0.05);
 }
 .b-2-list li.new::before {
 	content: 'Модельный ряд 2019';
@@ -517,7 +538,7 @@
 	left: 0;
 }
 .mobile-filter .filter-title {
-	text-align: left;
+	text-align: center;
 	font-family: 'PfDinTextCondPro-Bold';
 	color: #000000;
 	font-size: 18px;
@@ -625,7 +646,7 @@
 	padding: 15px 50px;
 	font-family: 'PfDinTextCondPro-Medium';
 	color: #ffffff;
-	background-color: rgb(228, 177, 2);
+	background-color: rgb(106, 106, 106);
 	position: fixed;
 	bottom: 0;
 	right: 0;
@@ -653,7 +674,7 @@
 	background-size: contain;
 }
 .filter-btn:hover {
-	background-color: rgb(197, 153, 0);
+	background-color: rgb(66, 66, 66);
 	cursor: pointer;
 }
 
