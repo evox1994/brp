@@ -122,6 +122,13 @@
 	font-size: 18px;
 	color: rgb(107, 107, 107);
 	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-2-item .item-bot ul li a:hover {
+	color: #000000;
 }
 .b-2-item .item-bot ul li a::before {
 	content: '';
@@ -132,6 +139,16 @@
 	top: calc(50% - 32px);
 	left: 0;
 	background-image: url('../i/a-pdf-icon.png');
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-2-item .item-bot ul li a:hover:before {
+	-webkit-filter: grayscale(0.4);
+	-moz-filter: grayscale(0.4);
+	-ms-filter: grayscale(0.4);
+	filter: grayscale(0.4);
 }
 .b-2-item .item-bot p {
 	display: block;
