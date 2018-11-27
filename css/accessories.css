@@ -1,0 +1,164 @@
+.b-1-wrap {
+	padding-top: 120px;
+	padding-bottom: 110px;
+	background-image: url('../i/accessories-fon.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.b-1-logo {
+	display: inline-block;
+	margin-bottom: 30px;
+	max-width: 100%;
+}
+.b-1-logo img {
+	display: block;
+	max-width: 100%;
+}
+.b-1 h1 {
+	display: block;
+	text-transform: uppercase;
+	font-family: 'PfDinTextCondPro-Medium';
+	font-size: 48px;
+	line-height: 1.2;
+}
+.b-1 h2 {
+	display: block;
+	text-transform: uppercase;
+	font-family: 'PfDinTextCondPro-Regular';
+	font-size: 24px;
+	line-height: 1.2;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.b-1 .place {
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 25px;
+}
+.b-1 .place span {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	font-size: 14px;
+	padding-right: 12px;
+	margin-right: 10px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-1 .place span:hover {
+	color: rgb(162, 162, 162);
+}
+.b-1 .place span:last-child {
+	margin-right: auto;
+	padding-right: 0;
+}
+.b-1 .place span::after {
+	content: '';
+	display: block;
+	width: 2px;
+	height: 2px;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	background-color: rgb(176, 176, 176);
+}
+.b-1 .place span:last-child:after {
+	display: none;
+}
+
+.b-2-wrap {
+	padding-top: 60px;
+	background-color: #ffffff;
+}
+.b-2-item .item-top {
+	padding-top: 100px;
+	padding-bottom: 125px;
+	background-position: center;
+	background-size: cover;
+}
+.b-2-item h2 {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 48px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: 'PfDinTextCondPro-Medium';
+}
+.b-2-item h3 {
+	display: block;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.b-2-item .item-bot {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	background-color: #f0f0f0;
+}
+.b-2-item .item-bot ul {
+	margin-bottom: 20px;
+}
+.b-2-item .item-bot ul li {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	padding: 20px 10px;
+	width: calc(33% - 4px);
+	text-align: left;
+	margin-bottom: 20px;
+}
+.b-2-item .item-bot ul li a {
+	display: inline-block;
+	position: relative;
+	font-family: 'PfDinTextCondPro-Bold';
+	max-width: 100%;
+	padding-left: 70px;
+	font-size: 18px;
+	color: rgb(107, 107, 107);
+	text-transform: uppercase;
+}
+.b-2-item .item-bot ul li a::before {
+	content: '';
+	display: block;
+	width: 51px;
+	height: 63px;
+	position: absolute;
+	top: calc(50% - 32px);
+	left: 0;
+	background-image: url('../i/a-pdf-icon.png');
+}
+.b-2-item .item-bot p {
+	display: block;
+	box-sizing: border-box;
+	text-align: left;
+	padding: 0 10px;
+	font-size: 14px;
+	color: #000000;
+	line-height: 1.7;
+}
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+	.b-2-item .item-bot {
+		text-align: left;
+	}
+	.b-2-item .item-bot ul li {
+		width: calc(50% - 4px);
+	}
+}
+@media screen and (max-width: 767px) {
+	.b-2-item .item-bot ul li {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
