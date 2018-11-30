@@ -1,0 +1,22 @@
+.b-1-wrap {
+	padding: 250px 10px 260px;
+	background-image: url('../i/fon-thanks.jpg');
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+	box-sizing: border-box;
+}
+.b-1 h1 {
+	display: block;
+	color: #ffffff;
+	font-size: 48px;
+	text-transform: uppercase;
+	font-family: 'PfDinTextCondPro-Medium';
+}
+.b-1 h2 {
+	display: block;
+	font-family: 'PfDinTextCondPro-Medium';
+	color: rgb(228, 177, 2);
+	font-size: 24px;
+	text-transform: uppercase;
+}

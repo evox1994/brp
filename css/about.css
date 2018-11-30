@@ -1,0 +1,152 @@
+.b-1-wrap {
+	padding-top: 205px;
+	padding-bottom: 220px;
+	background-image: url('../i/fon-about.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.b-1-logo {
+	display: inline-block;
+	margin-bottom: 30px;
+	max-width: 100%;
+}
+.b-1-logo img {
+	display: block;
+	max-width: 100%;
+}
+.b-1 h1 {
+	display: block;
+	text-transform: uppercase;
+	font-family: 'PfDinTextCondPro-Medium';
+	font-size: 48px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+.b-1 h2 {
+	display: block;
+	text-transform: uppercase;
+	font-family: 'PfDinTextCondPro-Regular';
+	font-size: 24px;
+	line-height: 1.2;
+	max-width: 500px;
+	margin: 0 auto;
+}
+.b-1 .place {
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 25px;
+}
+.b-1 .place span {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	font-size: 14px;
+	padding-right: 12px;
+	margin-right: 10px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-1 .place span:hover {
+	color: rgb(162, 162, 162);
+}
+.b-1 .place span:last-child {
+	margin-right: auto;
+	padding-right: 0;
+}
+.b-1 .place span::after {
+	content: '';
+	display: block;
+	width: 2px;
+	height: 2px;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	background-color: rgb(176, 176, 176);
+}
+.b-1 .place span:last-child:after {
+	display: none;
+}
+
+.b-2-wrap {
+	padding: 50px 10px;
+	background-color: #f0f0f0;
+}
+.b-2-item {
+	padding: 0 10px;
+	margin-bottom: 40px;
+	box-sizing: border-box;
+	position: relative;
+}
+.b-2-item.rp {
+	padding-right: calc(50% + 15px);
+}
+.b-2-item.lp {
+	padding-left: calc(50% + 15px);
+}
+.b-2-item .b-2-image {
+	display: block;
+	width: calc(50% - 15px);
+	max-height: 100%;
+	position: absolute;
+	top: 0;
+}
+.b-2-item .b-2-image img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+}
+.b-2-item.rp .b-2-image {
+	right: 0;
+}
+.b-2-item.lp .b-2-image {
+	left: 0;
+}
+.b-2-item .year {
+	display: block;
+	text-align: left;
+	font-family: 'PfDinTextCondPro-Medium';
+	font-size: 24px;
+	color: #363636;
+	margin-bottom: 10px;
+}
+.b-2-item p {
+	display: block;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 14px;
+	color: #363636;
+	margin-bottom: 20px;
+}
+.b-2-item p:last-child {
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+	.b-2-item.rp {
+		padding-right: 10px;
+	}
+	.b-2-item.lp {
+		padding-left: 10px;
+	}
+	.b-2-item .b-2-image {
+		position: static;
+		width: 100%;
+		margin: 0 auto 30px;
+	}
+}

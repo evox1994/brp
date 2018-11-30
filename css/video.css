@@ -1,0 +1,120 @@
+.b-1-wrap {
+	padding-top: 110px;
+	padding-bottom: 130px;
+	background-image: url('../i/fon-news.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.b-1-logo {
+	display: inline-block;
+	margin-bottom: 30px;
+	max-width: 100%;
+}
+.b-1-logo img {
+	display: block;
+	max-width: 100%;
+}
+.b-1 h1 {
+	display: block;
+	text-transform: uppercase;
+	font-family: 'PfDinTextCondPro-Medium';
+	font-size: 48px;
+	line-height: 1.2;
+}
+.b-1 h2 {
+	display: block;
+	text-transform: uppercase;
+	font-family: 'PfDinTextCondPro-Regular';
+	font-size: 24px;
+	line-height: 1.2;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.b-1 .place {
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 25px;
+}
+.b-1 .place span {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	font-size: 14px;
+	padding-right: 12px;
+	margin-right: 10px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-1 .place span:hover {
+	color: rgb(162, 162, 162);
+}
+.b-1 .place span:last-child {
+	margin-right: auto;
+	padding-right: 0;
+}
+.b-1 .place span::after {
+	content: '';
+	display: block;
+	width: 2px;
+	height: 2px;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	background-color: rgb(176, 176, 176);
+}
+.b-1 .place span:last-child:after {
+	display: none;
+}
+
+.b-2-wrap {
+	padding: 60px 10px;
+	background-color: #f0f0f0;
+}
+.b-2-list li {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	width: calc(50% - 4px);
+	padding: 0 10px;
+	margin-bottom: 40px;
+}
+.b-2-list li span {
+	display: block;
+	margin-top: 20px;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 24px;
+	color: rgb(54, 54, 54);
+}
+.b-2-list li iframe {
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 1280px){
+	.b-2-list li iframe {
+		height: 186px;
+	}
+}
+@media screen and (max-width: 767px){
+	.b-2-list li {
+		display: block;
+		width: 100%;
+	}
+	.b-2-list li span {
+		text-align: center;
+	}
+	.b-2-list li iframe {
+		max-width: 450px;
+		height: 250px;
+	}
+}
