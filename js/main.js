@@ -56,4 +56,45 @@ $(document).ready(function(){
 
 	$('.fancybox').fancybox();
 
+	$('body').on('click','.file-input',function(){
+		$(this).parents('.input-wrap').find('input[type="file"]').click();
+		return false;
+	});
+	$('body').on('change','.input-wrap input[type="file"]',function(){
+		files = this.files;
+		$(this).parents('.input-wrap').find('.file-input').text(files[0].name);
+		$(this).parents('.input-wrap').find('.file-input').addClass('active');
+	});
+
+	$('input').on('input',function(){
+		$(this).removeClass('error');
+	});
+	$('textarea').on('input',function(){
+		$(this).removeClass('error');
+	});
+
+	$('form button[type="submit"]').click(function(){
+		if ( $(this).closest('form').find('.button-text .radio-btn').hasClass('active') ) {
+			$(this).closest('form').find('input').each(function(){
+				if(!$(this).val().length) { 
+					event.preventDefault(); 
+					$(this).addClass("error"); 
+				} else { 
+					$(this).removeClass("error"); 
+				} 
+			});
+			$(this).closest('form').find('textarea').each(function(){
+				if(!$(this).val().length) { 
+					event.preventDefault(); 
+					$(this).addClass("error"); 
+				} else { 
+					$(this).removeClass("error"); 
+				} 
+			});
+		} else {
+			$(this).closest('form').find('.button-text .radio-btn').addClass('error');
+			event.preventDefault();
+		}
+	});
+
 });
