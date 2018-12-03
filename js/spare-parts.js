@@ -19,4 +19,8 @@ $(document).ready(function(){
 		]
 	});
 
+	$('.add-btn').click(function(){
+		$(this).parent().find('.add-wrap').append('<input type="text" placeholder="Номер артикула">');
+	});
+
 });
