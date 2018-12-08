@@ -451,9 +451,10 @@
 	background-color: rgb(197, 153, 0);
 }
 
-.b-5 .b-block {
-	padding-top: 55px;
-	padding-bottom: 55px;
+.b-5-wrap {
+	padding: 55px 10px;
+	background-color: #ececec;
+	position: relative;
 }
 .b-5-img {
 	display: inline-block;
@@ -481,6 +482,7 @@
 	font-size: 48px;
 	font-family: 'PfDinTextCondPro-Bold';
 	margin-bottom: 40px;
+	color: #000000;
 }
 .b-5 h2 span {
 	color: rgb(228, 177, 2);
@@ -490,6 +492,7 @@
 	text-align: left;
 	font-size: 18px;
 	margin-bottom: 40px;
+	color: #000000;
 }
 .b-5-btn {
 	display: block;
@@ -532,6 +535,7 @@
 	font-family: 'PfDinTextCondPro-Bold';
 	color: #ffffff;
 	font-size: 24px;
+	color: #000000;
 }
 
 .b-6-wrap {

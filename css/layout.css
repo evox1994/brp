@@ -747,6 +747,7 @@ input:-moz-placeholder {
 	line-height: 1;
 	color: rgb(183, 183, 183);
 	font-size: 14px;
+	text-transform: uppercase;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;

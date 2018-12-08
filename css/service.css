@@ -191,9 +191,10 @@
 	background-color: rgb(228, 177, 2);
 }
 
-.b-3 .b-block {
-	padding-top: 60px;
-	padding-bottom: 30px;
+.b-3-wrap {
+	padding: 60px 10px 30px;
+	background-color: #ececec;
+	position: relative;
 }
 .b-3 h2 {
 	display: block;
@@ -202,6 +203,7 @@
 	font-family: 'PfDinTextCondPro-Medium';
 	text-transform: uppercase;
 	margin-bottom: 30px;
+	color: #000000;
 }
 .b-3 h2 span {
 	color: #e4b102;
@@ -263,6 +265,7 @@
 	text-align: left;
 	font-size: 14px;
 	margin-bottom: 20px;
+	color: #000000;
 }
 .b-3-list .li-title {
 	display: block;
@@ -272,9 +275,10 @@
 	font-family: 'PfDinTextCondPro-Bold';
 	margin-bottom: 20px;
 	text-transform: uppercase;
+	color: #000000;
 }
 .b-3-list .li-title a {
-	color: #ffffff;
+	color: #000000;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -288,6 +292,7 @@
 	text-align: left;
 	line-height: 1.2;
 	font-size: 18px;
+	color: #000000;
 }
 
 .b-4-wrap {

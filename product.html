@@ -175,14 +175,14 @@
 				<div class="b-2-price"><span>809 000</span> руб.</div>
 				<ul class="buttons">
 					<li>
-						<a href="#" class="credit-btn">В кредит</a>
+						<a href="#popup-credit" class="credit-btn fancybox">В кредит</a>
 						<span>от 17 000 руб/мес</span>
 					</li>
 					<li>
-						<a href="#" class="trade-btn">Trade in</a>
+						<a href="#popup-bu" class="trade-btn fancybox">Trade in</a>
 					</li>
 					<li>
-						<a href="#" class="order-btn">Оформить заявку</a>
+						<a href="#popup-callback" class="order-btn fancybox">Оформить заявку</a>
 					</li>
 				</ul>
 			</div>
@@ -274,12 +274,14 @@
 
 	<div class="b b-5">
 		<div class="b-block">
-			<img src="i/p-b-5-img.png" class="b-5-img">
-			<div class="b-5-text">
-				<h2>Хотите увидеть эту модель <span>вживую</span>?</h2>
-				<p>Узнайте, есть ли она в наличии в выставочных залах. Позвоните нам или оставьте заявку на обратный звонок</p>
-				<a href="#" class="b-5-btn"><span>Заказать обратный звонок</span></a>
-				<a href="tel: 83822470202" class="b-5-tel">8 (3822) 47-02-02</a>
+			<div class="b-5-wrap">
+				<img src="i/p-b-5-img.png" class="b-5-img">
+				<div class="b-5-text">
+					<h2>Хотите увидеть эту модель <span>вживую</span>?</h2>
+					<p>Узнайте, есть ли она в наличии в выставочных залах. Позвоните нам или оставьте заявку на обратный звонок</p>
+					<a href="#" class="b-5-btn"><span>Заказать обратный звонок</span></a>
+					<a href="tel: 83822470202" class="b-5-tel">8 (3822) 47-02-02</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -397,6 +399,53 @@
 	</div>
 
 	<div style="display:none;">
+
+		<div class="popup" id="popup-callback">
+			<h2>Остались вопросы?<br> <span>Мы ответим на всё</span></h2>
+			<p class="popup-p">Остались вопросы в выборе техники для активного отдыха? Оставьте свой номер, наш менеджер обязательно свяжется с Вами в ближайшее время и ответит на все моменты</p>
+			<form>
+				<input type="text" placeholder="Ваше имя">
+				<input type="tel" placeholder="Ваш телефон">
+				<button type="submit" class="popup-btn"><span>Заказать обратный звонок</span></button>
+				<div class="button-text"><div class="radio-btn active"></div>Отправляя заявку, Вы соглашаетесь<br> с <a href="#" target="_blank">политикой конфиденциальности</a></div>
+			</form>
+		</div>
+
+		<div class="popup" id="popup-credit">
+			<h2>Хотите купить технику в кредит?<br> <span>Заполните заявку</span></h2>
+			<p class="popup-p">Наш специалист свяжется с банком,<br> и сообщит Вам решение.</p>
+			<form>
+				<input type="text" placeholder="Какая модель Вам нужна?">
+				<textarea placeholder="Дополнительная информация"></textarea>
+				<input type="text" placeholder="Ваше имя">
+				<input type="tel" placeholder="Ваш телефон">
+				<button type="submit" class="popup-btn"><span>Отправить заявку</span></button>
+				<div class="button-text"><div class="radio-btn active"></div>Отправляя заявку, Вы соглашаетесь<br> с <a href="#" target="_blank">политикой конфиденциальности</a></div>
+			</form>
+		</div>
+
+		<div class="popup" id="popup-bu">
+			<h2>Отправьте онлайн заявку<br> <span>на выкуп техники с пробегом</span></h2>
+			<p class="popup-p">Наш специалист сверит данные, проведёт оценку<br> и сообщит Вам по телефону ориентировочную цену</p>
+			<form>
+				<input type="text" placeholder="Марка, модель">
+				<input type="text" placeholder="Год выпуска">
+				<input type="text" placeholder="Пробег">
+				<input type="text" placeholder="Номер, серия ПТС (ПСМ)">
+				<textarea placeholder="Опишите состояние"></textarea>
+				<input type="text" placeholder="Желаемая сумма">
+				<div class="input-wrap">
+					<div class="file-input">Прикрепите фотографию</div>
+					<input type="file" accept=".gif,.jpg,.png,.svg">
+				</div>
+				<input type="text" placeholder="Ваше имя">
+				<input type="mail" placeholder="Ваше E-mail">
+				<input type="tel" placeholder="Ваш телефон">
+				<button type="submit" class="popup-btn"><span>Отправить заявку на выкуп</span></button>
+				<div class="button-text"><div class="radio-btn active"></div>Отправляя заявку, Вы соглашаетесь<br> с <a href="#" target="_blank">политикой конфиденциальности</a></div>
+			</form>
+		</div>
+
 	</div>
 </body>
 </html>
