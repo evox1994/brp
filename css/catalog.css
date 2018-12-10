@@ -35,14 +35,16 @@
 	position: relative;
 	font-size: 14px;
 	padding-right: 12px;
-	color: #000000;
 	margin-right: 10px;
+}
+.b-1 .place span a {
+	color: #000000;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	transition: all 0.3s;
 }
-.b-1 .place span:hover {
+.b-1 .place span a:hover {
 	color: rgb(162, 162, 162);
 }
 .b-1 .place span:last-child {

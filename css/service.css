@@ -114,7 +114,7 @@
 .b-2-wrap {
 	box-sizing: border-box;
 	padding: 60px 10px;
-	background-color: #f0f0f0;
+	background-color: #ececec;
 }
 .b-2-list {
 	margin-bottom: 20px;
@@ -127,6 +127,10 @@
 	box-sizing: border-box;
 	width: calc(50% - 4px);
 	text-align: left;
+}
+.b-2-list .li-wrap {
+	max-width: 340px;
+	margin: 0 auto;
 }
 .b-2-list li img {
 	display: inline-block;

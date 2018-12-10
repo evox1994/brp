@@ -719,6 +719,9 @@
 		padding-left: 0;
 		width: 100%;
 	}
+	.b-2-left img {
+		margin: 0 auto 40px;
+	}
 	.buttons li {
 		display: block;
 		margin-bottom: 20px;
@@ -748,7 +751,7 @@
 	}
 	.b-5-img {
 		display: block;
-		margin: 0 auto 30px;
+		margin: 0 auto 60px;
 		max-width: calc(100% - 20px);
 	}
 	.b-5-text {

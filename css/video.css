@@ -97,6 +97,42 @@
 	height: 300px;
 	margin: 0 auto;
 }
+.b-2-btn {
+	display: block;
+	padding: 15px;
+	background-color: rgb(228, 177, 2);
+	margin: 0 auto;
+	width: 220px;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.b-2-btn span {
+	display: inline-block;
+	padding-right: 18px;
+	position: relative;
+	font-size: 18px;
+	font-family: 'PfDinTextCondPro-Medium';
+	color: #ffffff;
+}
+.b-2-btn span::before {
+	content: '';
+	display: block;
+	width: 9px;
+	height: 16px;
+	position: absolute;
+	top: calc(50% - 8px);
+	right: 0;
+	background-image: url('../i/more-icon.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.b-2-btn:hover {
+	background-color: rgb(197, 153, 0);
+}
 
 
 

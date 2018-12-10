@@ -90,6 +90,30 @@
 .b-2 .image-list li a {
 	display: inline-block;
 	max-width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.b-2 .image-list li a::before {
+	content: '';
+	position: absolute;
+	display: block;
+	opacity: 0.2;
+	background-color: #362f32;
+	top: 0;
+	left: -40%;
+	width: 0;
+	height: 100%;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-ms-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
+	-webkit-transform: skew(-20deg,0);
+	-moz-transform: skew(-20deg,0);
+	-ms-transform: skew(-20deg,0);
+	transform: skew(-20deg,0);
+}
+.b-2 .image-list li a:hover:before {
+	width: 180%;
 }
 .b-2 .image-list li a img {
 	display: block;

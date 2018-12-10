@@ -65,6 +65,9 @@ $(document).ready(function(){
 		$(this).parents('.input-wrap').find('.file-input').text(files[0].name);
 		$(this).parents('.input-wrap').find('.file-input').addClass('active');
 	});
+	$('.add-photo').click(function(){
+		$('.photo-wrap').append('<div class="input-wrap"><div class="file-input">Прикрепите фотографию</div><input type="file" accept=".gif,.jpg,.png,.svg"></div>');
+	});
 
 	$('input').on('input',function(){
 		$(this).removeClass('error');

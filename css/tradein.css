@@ -124,6 +124,10 @@
 	width: calc(50% - 4px);
 	text-align: left;
 }
+.b-2-list .li-wrap {
+	max-width: 340px;
+	margin: 0 auto;
+}
 .b-2-list li img {
 	display: inline-block;
 	vertical-align: middle;
@@ -183,6 +187,7 @@
 	font-size: 14px;
 	margin-bottom: 20px;
 	border: 1px solid rgb(142, 142, 142);
+	border-radius: 0;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -366,6 +371,18 @@
 	-moz-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
+}
+.b-3 .add-photo {
+	display: block;
+	font-size: 14px;
+	padding-left: 20px;
+	color: rgb(54, 54, 54);
+	margin-bottom: 20px;
+	text-align: left;
+	font-family: 'PfDinTextCondPro-Medium';
+}
+.b-3 .add-photo:hover {
+	cursor: pointer;
 }
 
 .b-4-wrap {

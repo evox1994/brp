@@ -321,9 +321,10 @@
 	transform: rotate(-45deg);
 }
 
-.b-4 .b-block {
-	padding-top: 30px;
-	padding-bottom: 30px;
+.b-4-wrap {
+	padding: 30px 10px;
+	background-color: #f0f0f0;
+	position: relative;
 }
 .b-4 h2 {
 	display: block;
@@ -331,30 +332,18 @@
 	font-size: 48px;
 	font-family: 'PfDinTextCondPro-Medium';
 	margin-bottom: 30px;
+	color: #000000;
 }
 .b-4 h2 span {
 	color: #e4b102;
 }
-.inst-wrap {
+.inst-wrap, .vk-wrap, .youtube-wrap, .fb-wrap, .ok-wrap, .google-wrap {
 	display: inline-block;
 	vertical-align: top;
 	box-sizing: border-box;
 	width: calc(33% - 4px);
 	padding: 0 10px;
-}
-.vk-wrap {
-	display: inline-block;
-	vertical-align: top;
-	box-sizing: border-box;
-	width: calc(33% - 4px);
-	padding: 0 10px;
-}
-.youtube-wrap {
-	display: inline-block;
-	vertical-align: top;
-	box-sizing: border-box;
-	width: calc(33% - 4px);
-	padding: 0 10px;
+	margin-bottom: 30px;
 }
 .youtube-wrap iframe {
 	margin: 0 auto 20px;
@@ -362,7 +351,7 @@
 	max-width: 350px;
 	min-height: 197px;
 }
-.inst-wrap a, .vk-wrap a, .youtube-wrap a {
+.inst-wrap a, .vk-wrap a, .youtube-wrap a, .fb-wrap a, .ok-wrap a, .google-wrap a {
 	display: block;
 	width: 100%;
 	box-sizing: border-box;
@@ -371,18 +360,18 @@
 	max-width: 258px;
 	margin: 0 auto 30px;
 }
-.inst-wrap a span, .vk-wrap a span, .youtube-wrap a span {
+.inst-wrap a span, .vk-wrap a span, .youtube-wrap a span, .fb-wrap a span, .ok-wrap a span, .google-wrap a span {
 	display: block;
 	text-align: center;
 	font-size: 24px;
-	color: #ffffff;
+	color: #000000;
 	padding: 14px 20px;
 	box-sizing: border-box;
-	border: 3px solid #ffffff;
+	border: 3px solid #000000;
 	border-radius: 100px;
 	line-height: 1;
 }
-.inst-wrap a img, .vk-wrap a img, .youtube-wrap a img {
+.inst-wrap a img, .vk-wrap a img, .youtube-wrap a img, .fb-wrap a img, .ok-wrap a img, .google-wrap a img {
 	display: block;
 	max-height: 58px;
 	max-width: 58px;
@@ -398,7 +387,7 @@
 	.b-2-list li {
 		width: calc(50% - 4px);
 	}
-	.inst-wrap, .vk-wrap, .youtube-wrap {
+	.inst-wrap, .vk-wrap, .youtube-wrap, .fb-wrap, .ok-wrap, .google-wrap {
 		width: calc(50% - 4px);
 		margin-bottom: 40px;
 	}
@@ -408,7 +397,7 @@
 		display: block;
 		width: 100%;
 	}
-	.inst-wrap, .vk-wrap, .youtube-wrap {
+	.inst-wrap, .vk-wrap, .youtube-wrap, .fb-wrap, .ok-wrap, .google-wrap {
 		display: block;
 		width: 100%;
 	}

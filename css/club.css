@@ -192,7 +192,7 @@
 
 .b-3-wrap {
 	padding: 60px 10px;
-	background-color: #ececec;
+	background-color: #f0f0f0;
 }
 .b-3 h2 {
 	display: block;
@@ -295,7 +295,7 @@
 	-moz-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	transition: all 0.5s;
-	margin-top: 45px;
+	margin-top: 40px;
 }
 .b-3-btn.active {
 	background-color: rgb(109, 109, 109);
